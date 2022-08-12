@@ -24,6 +24,10 @@
 - في الألعاب ، تتحرك الكيانات ويجب أن تجد طرقها إلى مواقع مختلفة. يجب أن تكون هذه الطرق خالية من الاصطدامات وطبيعية ويتم حسابها بسرعة كبيرة. يعد هذا تحديًا كبيرًا والعديد من الألعاب تحل هذا باستخدام نقاط الطريق المحسوبة مسبقًا أو البرمجة النصية أو الطرق البسيطة والسريعة التي تعتمد على البحث الشبكي أو الحقول المحتملة. غالبًا ما يغشون أو يقبلون حقيقة أن الشخصيات تمشي عبر الأشياء. تصبح المشكلة أكثر تعقيدًا عندما يجب أن تتحرك الكيانات في الألعاب في مجموعات. يجب أن يتصرفوا كما تفعل مجموعة طبيعية ، لكن تقنيات التدفق التي غالبًا ما يتم استغلالها لهذا الغرض يمكن أن تؤدي إلى نتائج غير متوقعة وغير مرغوب فيها.
 - In games entities move around and must find their routes to various locations. These routes must be collision free, natural, and computed very fast. This is a major challenge and many games solve this by using precomputed waypoints, scripting, or simple but fast methods based on grid search or potential fields. Also very often they cheat or accept the fact that characters walk through objects. The problem becomes even more complicated when entities in games must move in groups. They should behave as a natural group does, but the flocking techniques that are often exploited for this can lead to rather unexpected and unwanted results.
 
+ ![3333](https://user-images.githubusercontent.com/35774039/184293748-f359b0a5-f00f-4135-ba3a-9a3c43dda27b.PNG)
+![33](https://user-images.githubusercontent.com/35774039/184293750-d7608cfd-84d3-4b50-b54d-5ab57e0ee5a8.PNG)
+
+
 - يعد تخطيط المسار ، الذي يُطلق عليه أيضًا اسم المسار أو تخطيط الحركة ، عنصرًا حاسمًا في ألعاب الكمبيوتر. يحدث تخطيط المسار في العديد من الأماكن في الألعاب. من الواضح أن الكيانات التي يتحكم فيها الكمبيوتر يجب أن تجد طرقها إلى مواقع مختلفة لأداء إجراءات معينة. ولكن أيضًا الصورة الرمزية التي يتحكم فيها اللاعب يجب أن تجد مسارات تجنب الاصطدام ؛ على وجه الخصوص عندما يكون التحكم في الصورة الرمزية غير مباشر. وأخيرًا ، يجب أن تتحرك الكاميرا التي يراقب اللاعب من خلالها عالم اللعبة.
 - Path planning, also termed pathing or motion planning is a crucial ingredient in computer games. Path planning occurs at many places in games. Clearly, computer controlled entities must find their routes to various locations to perform certain actions. But also the avatar controlled by the player must find collision avoiding paths; in particular when avatar control is indirect. And finally the camera through which the player observes the game world must move around.
 
@@ -38,6 +42,11 @@
 * https://farkadadnan.github.io/
 
 ![farkadadnan](https://user-images.githubusercontent.com/35774039/184148611-8460971b-5626-4388-8961-9c2fc6abd8fc.gif)
+
+![22](https://user-images.githubusercontent.com/35774039/184293842-55c41733-2b4f-4e36-8404-a1563a3413d3.PNG)
+![11](https://user-images.githubusercontent.com/35774039/184293845-a4e138dd-3865-4282-aeba-1804f09f5a30.PNG)
+
+
 # How it works
 - محرك الفيزياء المخصص
 تعمل اللعبة بمحرك فيزيائي مبسط يعتمد على كشف اصطدام الصندوق المحيط بمحاذاة المحور. جميع الكائنات المادية في هذه اللعبة إما مربعات أو مربعات مربعة محاذية للمحور.  .
