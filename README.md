@@ -34,7 +34,7 @@
 # Determine the path of the body within the game
  Determine the path of the body within the game through several algorithms and using VFH technology and determine the path.
  
-# Play Online  (https://farkadadnan.github.io/)
+ # [Play Online ](https://farkadadnan.github.io/).
 * https://farkadadnan.github.io/
 
 ![farkadadnan](https://user-images.githubusercontent.com/35774039/184148611-8460971b-5626-4388-8961-9c2fc6abd8fc.gif)
