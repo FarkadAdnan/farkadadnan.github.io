@@ -24,7 +24,7 @@
 - في الألعاب ، تتحرك الكيانات ويجب أن تجد طرقها إلى مواقع مختلفة. يجب أن تكون هذه الطرق خالية من الاصطدامات وطبيعية ويتم حسابها بسرعة كبيرة. يعد هذا تحديًا كبيرًا والعديد من الألعاب تحل هذا باستخدام نقاط الطريق المحسوبة مسبقًا أو البرمجة النصية أو الطرق البسيطة والسريعة التي تعتمد على البحث الشبكي أو الحقول المحتملة. غالبًا ما يغشون أو يقبلون حقيقة أن الشخصيات تمشي عبر الأشياء. تصبح المشكلة أكثر تعقيدًا عندما يجب أن تتحرك الكيانات في الألعاب في مجموعات. يجب أن يتصرفوا كما تفعل مجموعة طبيعية ، لكن تقنيات التدفق التي غالبًا ما يتم استغلالها لهذا الغرض يمكن أن تؤدي إلى نتائج غير متوقعة وغير مرغوب فيها.
 - In games entities move around and must find their routes to various locations. These routes must be collision free, natural, and computed very fast. This is a major challenge and many games solve this by using precomputed waypoints, scripting, or simple but fast methods based on grid search or potential fields. Also very often they cheat or accept the fact that characters walk through objects. The problem becomes even more complicated when entities in games must move in groups. They should behave as a natural group does, but the flocking techniques that are often exploited for this can lead to rather unexpected and unwanted results.
 
- ![3333](https://user-images.githubusercontent.com/35774039/184293748-f359b0a5-f00f-4135-ba3a-9a3c43dda27b.PNG)
+ ![3333](https://user-images.githubusercontent.com/35774039/184294991-62bc189d-edb4-422d-af0b-6ed3af685867.PNG)
 ![33](https://user-images.githubusercontent.com/35774039/184293750-d7608cfd-84d3-4b50-b54d-5ab57e0ee5a8.PNG)
 
 
