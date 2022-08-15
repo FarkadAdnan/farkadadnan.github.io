@@ -70,7 +70,8 @@ Moving the camera to support a 3D platformer game is a challenge, that I had to 
 - Automatic optimization
 The game is playable from mid-range mobile to high-range desktop. To support this adaptability, the game adapt itself to the device capability at runtime.  
  
-
+# Take advice from Grandma and Grandpa
+![شس](https://user-images.githubusercontent.com/35774039/184701364-a9a3e3a5-5444-4e29-8122-3b6da86f2fd6.PNG)
 
 
 # REFERENCES 
