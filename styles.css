@@ -143,9 +143,10 @@
                 background-image: url(assets/redo-alt-solid.svg);
                 background-size: auto 75%;
                 background-repeat: no-repeat;
-                background-position: 35% 60%;
+                /* background-position: 35% 60%; */
+                width: 20px;
                 outline: none !important;
-                padding: 10px 20px 10px 20px;
+                /* padding: 10px 20px 10px 20px; */
                 cursor: pointer;
             }
             .input input {
@@ -731,4 +732,11 @@
                 margin-bottom: 40px;
                 font-size: 50px;
                 font-weight: 400;
+            }
+            .input {
+                padding-top: -5px;
+            }
+            input button {
+                position: absolute;
+                left: 30px;
             }
