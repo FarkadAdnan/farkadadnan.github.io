@@ -154,12 +154,14 @@
                 <div>
                     Your display name:
                     <div class="input">
-                        <input autocomplete="off" id="game-name" maxlength="15" placeholder="(for multiplayer)" onclick="this.select()"></input><button
+                        <input type="text" autocomplete="off" id="game-name" maxlength="15" placeholder="(for multiplayer)" onclick="this.select()"></input>
+                        <button
                             onclick="this.previousSibling.value = utils.randomDisplayName()">&nbsp;</button>
+                            
                     </div>
                     Your game pass:
                     <div class="input">
-                        <input autocomplete="off" id="game-pass" maxlength="15" placeholder="(for multiplayer)" onclick="this.select()"></input><button
+                        <input type="text" autocomplete="off" id="game-pass" maxlength="15" placeholder="(for multiplayer)" onclick="this.select()"></input><button
                             onclick="this.previousSibling.value = utils.randomString()">&nbsp;</button>
                     </div>
                     <div id="start-button">
